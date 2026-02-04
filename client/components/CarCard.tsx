@@ -11,7 +11,13 @@ interface CarCardProps {
   startingPrice: string;
 }
 
-export const CarCard = ({ image, name, category, specs, startingPrice }: CarCardProps) => {
+export const CarCard = ({
+  image,
+  name,
+  category,
+  specs,
+  startingPrice,
+}: CarCardProps) => {
   return (
     <div className="group bg-card rounded-lg overflow-hidden hover:shadow-2xl transition-all duration-300 border border-border hover:border-accent/50 animate-fade-in">
       {/* Image Container */}

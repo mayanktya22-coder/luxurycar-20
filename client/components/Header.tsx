@@ -20,16 +20,28 @@ export const Header = () => {
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <a href="#collection" className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors">
+          <a
+            href="#collection"
+            className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors"
+          >
             Collection
           </a>
-          <a href="#featured" className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors">
+          <a
+            href="#featured"
+            className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors"
+          >
             Featured
           </a>
-          <a href="#why-us" className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors">
+          <a
+            href="#why-us"
+            className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors"
+          >
             Why Us
           </a>
-          <a href="#contact" className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors">
+          <a
+            href="#contact"
+            className="text-sm font-medium text-foreground/80 hover:text-accent transition-colors"
+          >
             Contact
           </a>
         </div>
@@ -59,16 +71,28 @@ export const Header = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-card border-b border-border">
           <div className="px-4 py-4 space-y-3">
-            <a href="#collection" className="block text-sm font-medium text-foreground/80 hover:text-accent py-2">
+            <a
+              href="#collection"
+              className="block text-sm font-medium text-foreground/80 hover:text-accent py-2"
+            >
               Collection
             </a>
-            <a href="#featured" className="block text-sm font-medium text-foreground/80 hover:text-accent py-2">
+            <a
+              href="#featured"
+              className="block text-sm font-medium text-foreground/80 hover:text-accent py-2"
+            >
               Featured
             </a>
-            <a href="#why-us" className="block text-sm font-medium text-foreground/80 hover:text-accent py-2">
+            <a
+              href="#why-us"
+              className="block text-sm font-medium text-foreground/80 hover:text-accent py-2"
+            >
               Why Us
             </a>
-            <a href="#contact" className="block text-sm font-medium text-foreground/80 hover:text-accent py-2">
+            <a
+              href="#contact"
+              className="block text-sm font-medium text-foreground/80 hover:text-accent py-2"
+            >
               Contact
             </a>
             <a
